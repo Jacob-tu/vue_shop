@@ -1,0 +1,16 @@
+项目初始化：
+    安装VUE脚手架，通过脚手架创建项目（vue ui可视化面板创建项目）
+    配置vue路由、element-ui组件库、axios库
+    初始化github远程仓库，将本地项目push到github仓库中。
+
+    安装mysql数据库、导入数据库、node.js环境
+    启动api接口服务器，postman测试api接口服务器是否工作
+
+实现登录功能：
+    先用git操作创建一个开发分支再编写代码
+    登录表单通过Element-UI组件实现布局
+    登录组件根据预验证决定是否向后台发起请求
+    验证登录信息的合法性，成功则将服务器返回的token保存到session Storage中
+    路由导航守卫控制访问权限
+    
+
