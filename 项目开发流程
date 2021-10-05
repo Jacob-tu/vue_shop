@@ -11,6 +11,25 @@
     登录表单通过Element-UI组件实现布局
     登录组件根据预验证决定是否向后台发起请求
     验证登录信息的合法性，成功则将服务器返回的token保存到session Storage中
-    路由导航守卫控制访问权限
-    
+    挂载路由导航守卫控制访问权限，在每次路由更新时验证token
+    提交登录功能代码 git 操作（源代码经测试后没问题，将开发分支合并到主分支，再将主分支push到云端仓库中，把新建的子分支(开发分支)也push到云端仓库中。
+        git status  查看当前项目中源代码的状态
+        git add .   把所有修改的和新增的文件都添加到暂存区
+        git commit -m "描述信息"    把暂存区中的所有代码提交到本地仓库中
+        git branch  查看分支，代码都提交到了开发分支中
+        git checkout main   切换到 main 主分支
+        git merge login     把开发分支中的所有代码合并到 main 主分支
+        git push    把本地的 main 分支推送到 github 中
+        git checkout login  切换到开发分支
+        git push -u origin login    在 github 中创建开发分支
 
+主页布局：
+    通过接口获取菜单数据
+    通过 axios 请求拦截器添加 token，保证拥有获取数据的权限
+    左侧菜单UI绘制，左侧菜单改为路由链接
+
+用户管理模块：
+    开发完成后进行git操作
+    git checkout -b user    创建并切换到user分支上
+    
+    
