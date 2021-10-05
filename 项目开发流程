@@ -16,6 +16,7 @@
         git status  查看当前项目中源代码的状态
         git add .   把所有修改的和新增的文件都添加到暂存区
         git commit -m "描述信息"    把暂存区中的所有代码提交到本地仓库中
+        git status  查看状态
         git branch  查看分支，代码都提交到了开发分支中
         git checkout main   切换到 main 主分支
         git merge login     把开发分支中的所有代码合并到 main 主分支
