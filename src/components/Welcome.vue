@@ -5,8 +5,15 @@
 </template>
 
 <script>
-export default {
 
+export default {
+  mounted () {
+    this.$api.menu.getMenuList().then(res => {
+      // console.log(res)
+    }).catch(err => {
+      console.log(err);
+    })
+  }
 }
 </script>
 
