@@ -5,6 +5,7 @@ import category from "./category";
 import params from "./params";
 import list from "./list";
 import order from './order'
+import report from './report'
 
 export default {
   menu,
@@ -13,5 +14,6 @@ export default {
   category,
   params,
   list,
-  order
+  order,
+  report
 };
