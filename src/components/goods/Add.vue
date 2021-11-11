@@ -278,7 +278,6 @@ export default {
           .then((res) => {
             this.$message.success("添加商品成功!")
             this.$router.push("/goods")
-            console.log(res);
           })
           .catch((err) => err);
       });

@@ -4,6 +4,7 @@ import users from "./users";
 import category from "./category";
 import params from "./params";
 import list from "./list";
+import order from './order'
 
 export default {
   menu,
@@ -12,4 +13,5 @@ export default {
   category,
   params,
   list,
+  order
 };
