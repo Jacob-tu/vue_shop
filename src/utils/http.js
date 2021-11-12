@@ -9,7 +9,7 @@ const instance = axios.create({
   timeout: 10000, // 设置超时时间10s
   baseURL:
     process.env.NODE_ENV === "production"
-      ? ""
+      ? "http://120.25.207.68:8889/api/private/v1/"
       : "http://127.0.0.1:8888/api/private/v1/", //根据自己配置的反向代理去设置不同环境的baeUrl
 });
 

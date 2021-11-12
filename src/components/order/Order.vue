@@ -99,7 +99,7 @@
       </span>
     </el-dialog>
     <el-dialog title="物流进度" :visible.sync="progressVisible" width="50%">
-      <el-timeline :reverse="reverse">
+      <el-timeline :reverse="false">
         <el-timeline-item
           v-for="(activity, index) in progressInfo"
           :key="index"
