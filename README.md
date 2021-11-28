@@ -1,6 +1,6 @@
 # vue_shop
 
-域名：http://120.25.207.68
+地址：http://120.25.207.68
 
 ## Project setup
 ```
